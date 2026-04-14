@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I miei lavori</title>
+
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f4f4f4;
+}
+
+header {
+background: #111;
+color: white;
+padding: 60px 20px;
+text-align: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 40px;
+}
+
+header p {
+font-size: 18px;
+margin-top: 10px;
+}
+
+.button {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 20px;
+background: #00aaff;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+
+section {
+padding: 40px 20px;
+max-width: 900px;
+margin: auto;
+background: white;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+h2 {
+color: #333;
+}
+
+.services, .portfolio {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+}
+
+.card {
+background: #eee;
+padding: 15px;
+border-radius: 10px;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+background: #111;
+color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Il mio lavoro professionale</h1>
+<p>Servizi affidabili e di qualità per ogni esigenza</p>
+<a class="button" href="#contatti">Contattami</a>
+</header>
+
+<section>
+<h2>Chi sono</h2>
+<p>
+Sono un professionista che offre servizi di qualità, con esperienza e attenzione ai dettagli.
+Lavoro con serietà e garantisco risultati affidabili.
+</p>
+</section>
+
+<section>
+<h2>Servizi</h2>
+<div class="services">
+<div class="card">🔧 Riparazioni</div>
+<div class="card">🏠 Lavori domestici</div>
+<div class="card">⚡ Installazioni</div>
+<div class="card">🧰 Assistenza tecnica</div>
+</div>
+</section>
+
+<section>
+<h2>Lavori svolti</h2>
+<div class="portfolio">
+<div class="card">Progetto 1</div>
+<div class="card">Progetto 2</div>
+<div class="card">Progetto 3</div>
+</div>
+</section>
+
+<section id="contatti">
+<h2>Contatti</h2>
+<p>📞 Telefono: +39 XXX XXX XXXX</p>
+<p>📧 Email: tuo@email.it</p>
+</section>
+
+<footer>
+<p>© 2026 - Tutti i diritti riservati</p>
+</footer>
+
+</body>
+</html>
